@@ -8,7 +8,7 @@ export default {
 <template>
       <section class="container pb-5">
          <div class="row">
-            <h6 class="text-uppercase pt-5 color_dg">our business areas</h6>
+            <h6 class="text-uppercase pt-5 color_dg fw-bold">our business areas</h6>
             <h3 class="fw-bold">Excellence in <span class="bg_lg color_dg px-2 fw-bolder rounded-2">Services</span></h3>
             <p class="text_grey">We are leaders in providing consultancy services with a set of cutting-edge technologies
                and a team of experienced and renowned professionals. These are some options that you can hire</p>
