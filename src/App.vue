@@ -4,13 +4,15 @@ import BusinessSection from './components/BusinessSection.vue'
 import NetworkSection from './components/NetworkSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import NumbersSection from './components/NumbersSection.vue'
+import ActionSection from './components/ActionSection.vue'
 export default {
    components: {
       PageHeader,
       BusinessSection,
       NetworkSection,
       ProjectsSection,
-      NumbersSection
+      NumbersSection,
+      ActionSection
    },
    data() {
       return {
@@ -24,10 +26,11 @@ export default {
    <PageHeader />
    <!-- Main -->
    <main class="">
-      <BusinessSection/>
+      <BusinessSection />
       <NetworkSection />
       <ProjectsSection />
       <NumbersSection />
+      <ActionSection />
 
    </main>
    <!-- Footer -->
@@ -65,7 +68,7 @@ export default {
 
 
 main {
-   background-color: $bg-business;
+
 
 
 
