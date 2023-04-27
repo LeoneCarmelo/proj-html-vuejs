@@ -1,18 +1,11 @@
 <script>
 import PageHeader from './components/PageHeader.vue'
-import BusinessSection from './components/BusinessSection.vue'
-import NetworkSection from './components/NetworkSection.vue'
-import ProjectsSection from './components/ProjectsSection.vue'
-import NumbersSection from './components/NumbersSection.vue'
-import ActionSection from './components/ActionSection.vue'
+import PageMain from './components/PageMain.vue'
+
 export default {
    components: {
       PageHeader,
-      BusinessSection,
-      NetworkSection,
-      ProjectsSection,
-      NumbersSection,
-      ActionSection
+      PageMain
    },
    data() {
       return {
@@ -24,15 +17,8 @@ export default {
 
 <template>
    <PageHeader />
-   <!-- Main -->
-   <main class="">
-      <BusinessSection />
-      <NetworkSection />
-      <ProjectsSection />
-      <NumbersSection />
-      <ActionSection />
+   <PageMain />
 
-   </main>
    <!-- Footer -->
    <footer>
 
@@ -66,11 +52,4 @@ export default {
 
 /* #endregion Utility */
 
-
-main {
-
-
-
-
-}
 </style>
