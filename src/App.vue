@@ -1,11 +1,13 @@
 <script>
 import PageHeader from './components/PageHeader.vue'
 import PageMain from './components/PageMain.vue'
+import PageFooter from './components/PageFooter.vue'
 
 export default {
    components: {
       PageHeader,
-      PageMain
+      PageMain,
+      PageFooter
    },
    data() {
       return {
@@ -18,38 +20,9 @@ export default {
 <template>
    <PageHeader />
    <PageMain />
+   <PageFooter />
 
-   <!-- Footer -->
-   <footer>
-
-   </footer>
 </template>
 
 
-<style lang="scss" scoped>
-@use './assets/scss/partials/variables' as *;
-
-/* #region Utility */
-.color_lg {
-   color: $light-green
-}
-
-.color_dg {
-   color: $dark-green
-}
-
-.bg_lg {
-   background-color: $light-green;
-}
-
-.bg_dg {
-   background-color: $dark-green;
-}
-
-.text_grey {
-   color: $grey-text
-}
-
-/* #endregion Utility */
-
-</style>
+<style lang="scss" scoped></style>
