@@ -2,11 +2,13 @@
 import PageHeader from './components/PageHeader.vue'
 import BusinessSection from './components/BusinessSection.vue'
 import NetworkSection from './components/NetworkSection.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
 export default {
    components: {
       PageHeader,
       BusinessSection,
-      NetworkSection
+      NetworkSection,
+      ProjectsSection
    },
    data() {
       return {
@@ -19,9 +21,11 @@ export default {
 <template>
    <PageHeader />
    <!-- Main -->
-   <main class="py-4">
+   <main class="">
       <BusinessSection/>
       <NetworkSection />
+      <ProjectsSection />
+
 
 
    </main>
@@ -63,7 +67,6 @@ export default {
 
 main {
    background-color: $bg-business;
-
 
 
 
