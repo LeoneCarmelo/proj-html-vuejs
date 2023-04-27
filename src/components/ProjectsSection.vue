@@ -97,6 +97,7 @@ export default {
 
 .projects{
       background-color: $light;
+      padding-bottom: 7rem;
 
       .container {
          width: 70%;

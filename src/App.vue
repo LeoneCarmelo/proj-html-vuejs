@@ -3,12 +3,14 @@ import PageHeader from './components/PageHeader.vue'
 import BusinessSection from './components/BusinessSection.vue'
 import NetworkSection from './components/NetworkSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+import NumbersSection from './components/NumbersSection.vue'
 export default {
    components: {
       PageHeader,
       BusinessSection,
       NetworkSection,
-      ProjectsSection
+      ProjectsSection,
+      NumbersSection
    },
    data() {
       return {
@@ -25,8 +27,7 @@ export default {
       <BusinessSection/>
       <NetworkSection />
       <ProjectsSection />
-
-
+      <NumbersSection />
 
    </main>
    <!-- Footer -->
@@ -61,8 +62,6 @@ export default {
 }
 
 /* #endregion Utility */
-
-
 
 
 main {
