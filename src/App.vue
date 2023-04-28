@@ -11,16 +11,38 @@ export default {
    },
    data() {
       return {
-
+         openingHours: 'Open Hours: Mon - Sat - 9:00 - 18:00',
+         phoneNumber: '+1 (305) 1234-5678',
+         mail: 'hello@example.com',
+         address: 'Main Avenue, 987',
+         contacts: {
+            logo: '/logo.PNG',
+            description: 'A Functional HTML Template for Corporate & Business.',
+            phone: '+1 (305) 1234-5678',
+            email: 'hello@example.com',
+            address: 'Main Avenue, 987'
+         },
+         aboutList: {
+            name: 'About',
+            list: ['The Company', 'Institutional', 'Social & Events', 'Innovation', 'Environment', 'Technology']
+         },
+         servicesList: {
+            name: 'Services',
+            list: ['Audit & Assurance', 'Financial Advisory', 'Analytic M&A', 'Middle Marketing', 'Legal Consulting', 'Regulatory Risk']
+         },
+         supportList: {
+            name: 'Support',
+            list: ['Responsability', 'Term of Use', 'About Cookies', 'Privacy Policy', 'Accessibility', 'Information']
+         }
       }
    }
 }
 </script>
 
 <template>
-   <PageHeader />
+   <PageHeader :opening="openingHours" :phone="phoneNumber" :mail="mail"/>
    <PageMain />
-   <PageFooter />
+   <PageFooter :phone="phoneNumber" :mail="mail" :email="mail" :logo="contacts.logo" :description="contacts.description" :about="aboutList.name" :service="servicesList.name" :support="supportList.name"/>
 </template>
 
 
