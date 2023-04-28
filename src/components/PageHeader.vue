@@ -166,6 +166,11 @@ header {
                 border: 2px solid $dark-green;
             }
 
+            #more:hover {
+                background-color: $dark-green;
+                color:$light;
+            }
+
 
         }
 
