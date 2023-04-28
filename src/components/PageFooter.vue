@@ -2,14 +2,16 @@
 import AboutList from './AboutList.vue'
 import ServicesList from './ServicesList.vue'
 import SupportList from './SupportList.vue'
+import CopyRight from './CopyRight.vue'
 export default {
-    name: 'PageFooter',
-    components: {
+   name: 'PageFooter',
+   components: {
       AboutList,
       ServicesList,
-      SupportList
-    },
-    data() {
+      SupportList,
+      CopyRight
+   },
+   data() {
       return {
          contacts: {
             logo: '/logo.PNG',
@@ -29,7 +31,9 @@ export default {
          supportList: {
             name: 'Support',
             list: ['Responsability', 'Term of Use', 'About Cookies', 'Privacy Policy', 'Accessibility', 'Information']
-         }
+         },
+         copyright: 'Enjoy the low price. We are tracking any intention of privacy.',
+         nexgen: `2020 NEXGEN is Proudly Powered by `
       }
    }
 }
@@ -82,36 +86,24 @@ export default {
             <div class="col-3">
                <ul>
                   <li class="py-2">{{ aboutList.name }}</li>
-                  <AboutList v-for="item in aboutList.list" :list="item"/> 
+                  <AboutList v-for="item in aboutList.list" :list="item" />
                </ul>
             </div>
             <div class="col-3">
                <ul>
                   <li class="py-2">{{ servicesList.name }}</li>
-                  <ServicesList  v-for="item in servicesList.list" :list="item"/>
+                  <ServicesList v-for="item in servicesList.list" :list="item" />
                </ul>
             </div>
             <div class="col-3">
                <ul>
                   <li class="py-2">{{ supportList.name }}</li>
-                  <SupportList v-for="item in supportList.list" :list="item"/>
+                  <SupportList v-for="item in supportList.list" :list="item" />
                </ul>
             </div>
          </div>
       </div>
-      <div class="copyright py-3">
-         <div class="container">
-            <div class="row">
-               <div class="col text-center">
-                  <span class="text_grey">Enjoy the low price. We are tracking any intention of privacy.</span>
-               </div>
-               <div class="col text-center">
-                  <span class="text_grey">&copy; 2020 NEXGEN is Proudly Powered by <span
-                        class="color_dg">Codings</span>.</span>
-               </div>
-            </div>
-         </div>
-      </div>
+      <CopyRight :copyright="copyright" :nexgen="nexgen"/>
       <div class="arrow">
          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-circle"
             viewBox="0 0 16 16">
@@ -197,17 +189,7 @@ footer {
       }
    }
 
-   .copyright {
-      background: #000;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
 
-      span {
-         font-size: 0.5rem;
-      }
-   }
 
    .arrow {
       position: absolute;
