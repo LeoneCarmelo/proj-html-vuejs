@@ -42,7 +42,7 @@ export default {
 <template>
    <PageHeader :opening="openingHours" :phone="phoneNumber" :mail="mail"/>
    <PageMain />
-   <PageFooter :phone="phoneNumber" :mail="mail" :email="mail" :logo="contacts.logo" :description="contacts.description" :about="aboutList.name" :service="servicesList.name" :support="supportList.name"/>
+   <PageFooter/>
 </template>
 
 
