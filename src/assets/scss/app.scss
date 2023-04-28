@@ -1,1 +1,6 @@
-@use '/node_modules/bootstrap/scss/bootstrap.scss'
+@use '/node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}

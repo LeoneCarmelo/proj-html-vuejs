@@ -9,7 +9,7 @@ export default {
          <div class="numbers">
             <div class="container text-center">
                <h6 class="color_dg fw-bold text-uppercase mb-3">what we are doing</h6>
-               <h3 class="fw-bolder text-white mb-5"><span class="bg_dg rounded-2 px-2">Results</span> in Numbers</h3>
+               <h3 class="fw-bolder text-white mb-5"><span class="darker_g rounded-2 px-2">Results</span> in Numbers</h3>
                <div class="row row-cols-4">
                   <div class="col">
                      <div class="result d-flex flex-column">
@@ -84,6 +84,9 @@ export default {
 .text_grey {
    color: $grey-text
 }
+.darker_g {
+   background-color: $darker-green;
+}
 
 /* #endregion Utility */
 
@@ -102,7 +105,7 @@ export default {
       background-color: $bg-network;
 
       .logo {
-         width: 80px;
+         width: 70px;
       }
    }
 </style>

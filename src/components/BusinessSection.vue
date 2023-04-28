@@ -17,7 +17,7 @@ export default {
             </div>
             <div class="row row-cols-3 pt-5">
                <div class="col mb-4">
-                  <div class="card p-2 border-0">
+                  <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                            class="bi bi-diagram-2" viewBox="0 0 16 16">
@@ -30,12 +30,12 @@ export default {
                               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                      </div>
-                     <h5 class="fw-bold">Audit & Assurance</h5>
+                     <h5 class="fw-bold py-3">Audit & Assurance</h5>
                      <p class="w-100 text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card p-2 border-0">
+                  <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                            class="bi bi-briefcase" viewBox="0 0 16 16">
@@ -48,12 +48,12 @@ export default {
                               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                      </div>
-                     <h5 class="fw-bold">Financial Advisory</h5>
+                     <h5 class="fw-bold py-3">Financial Advisory</h5>
                      <p class="w-100 text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card p-2 border-0">
+                  <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                            class="bi bi-bar-chart" viewBox="0 0 16 16">
@@ -66,12 +66,12 @@ export default {
                               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                      </div>
-                     <h5 class="fw-bold">Analytics and M&A</h5>
+                     <h5 class="fw-bold py-3">Analytics and M&A</h5>
                      <p class="w-100 text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card p-2 border-0">
+                  <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                            class="bi bi-airplane" viewBox="0 0 16 16">
@@ -84,12 +84,12 @@ export default {
                               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                      </div>
-                     <h5 class="fw-bold">Middle Marketing</h5>
+                     <h5 class="fw-bold py-3">Middle Marketing</h5>
                      <p class="w-100 text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card p-2 border-0">
+                  <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                            class="bi bi-globe-europe-africa" viewBox="0 0 16 16">
@@ -102,12 +102,12 @@ export default {
                               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                      </div>
-                     <h5 class="fw-bold">Legal Consulting</h5>
+                     <h5 class="fw-bold py-3">Legal Consulting</h5>
                      <p class="w-100 text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                </div>
                <div class="col mb-4">
-                  <div class="card p-2 border-0">
+                  <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-hdd"
                            viewBox="0 0 16 16">
@@ -121,7 +121,7 @@ export default {
                               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                      </div>
-                     <h5 class="fw-bold">Regulatory Risk</h5>
+                     <h5 class="fw-bold py-3">Regulatory Risk</h5>
                      <p class="w-100 text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                </div>
@@ -176,6 +176,11 @@ export default {
          svg {
             fill: $dark-green;
             cursor: pointer;
+         }
+
+         .card:hover svg:last-child {
+            background-color: $light-green;
+            border-radius: 50%;
          }
       }
 }

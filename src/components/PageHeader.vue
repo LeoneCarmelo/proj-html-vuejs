@@ -85,11 +85,15 @@ export default {
 
 header {
     background-color: $header;
-    color: $grey-text;
+    color: $clear-text;
 
     .container_info {
         width: 70%;
         margin: auto;
+
+        .contacts span {
+            cursor: pointer;
+        }
     }
 
     .jumbotron {
@@ -98,7 +102,10 @@ header {
         background-position: top -90px center;
         background-size: 2700px;
         flex-direction: column;
-
+        
+        h1 {
+            font-size: 3.5rem;
+        }
 
         nav {
             width: 70%;

@@ -21,7 +21,6 @@ export default {
    <PageHeader />
    <PageMain />
    <PageFooter />
-
 </template>
 
 

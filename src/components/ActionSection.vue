@@ -17,7 +17,10 @@ export default {
                   <form class="row g-3">
                      <div class="col-md-6">
                         <label for="inputName4" class="form-label"></label>
-                        <input type="text" class="form-control border-0" id="inputName4" placeholder="Name">
+                        <div class="cont_name position-relative">
+                           <input type="text" class="form-control border-0" id="inputName4" placeholder="Name">
+                           <img src="/images/image (1).png" alt="">
+                        </div>
                      </div>
                      <div class="col-md-6">
                         <label for="inputEmail4" class="form-label"></label>
@@ -30,12 +33,12 @@ export default {
                      <div class="col-md-6 mt-0">
                         <label for="inputInfo" class="form-label"></label>
                         <select id="inputInfo" class="form-select border-0">
-                           <option>More Info</option>
+                           <option style="color:#808080;">More Info</option>
                         </select>
                      </div>
                      <div class="col-12 mt-4">
                         <div class="message">
-                           <textarea class="rounded-2 p-2 border-0" name="" id="" cols="59" rows="5"
+                           <textarea class="rounded-2 p-2 border-0 w-100" name="" id="" cols="59" rows="5"
                               placeholder="Message"></textarea>
                         </div>
                      </div>
@@ -151,6 +154,14 @@ export default {
       button {
          border: 1px solid $dark-green;
       }
+
+      .cont_name img{
+         position:absolute;
+         right:10px;
+         top:10px;
+      }
+
+
    }
 
 </style>
