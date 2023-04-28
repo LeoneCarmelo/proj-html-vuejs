@@ -56,7 +56,12 @@ export default {
                 </span>
             </div>
         </div>
-        <div class="jumbotron d-flex">
+        <div class="jumbotron d-flex position-relative">
+            <div class="carousel_selector position-absolute">
+                <div class="sel_1"></div>
+                <div class="sel_2 my-2"></div>
+                <div class="sel_3"></div>
+            </div>
             <nav class="p-2 d-flex justify-content-between">
                 <div class="logo">
                     <img src="/logo.PNG" alt="" class="img-fluid">
@@ -98,11 +103,13 @@ header {
 
     .jumbotron {
         background-color: $light;
-        background-image: url('/images/bg-parallax.png');
-        background-position: top -90px center;
-        background-size: 2700px;
+        background-image: url('/images/bg-parallax.png'), url('/background-squares.jpg');
+        background-position: top -90px center, 100px -120px;
+        background-size: 2700px, cover;
         flex-direction: column;
-        
+
+
+
         h1 {
             font-size: 3.5rem;
         }
@@ -117,6 +124,10 @@ header {
 
             li {
                 cursor: pointer;
+            }
+
+            li:hover {
+                color: $dark-green
             }
 
             .logo {
@@ -152,6 +163,26 @@ header {
 
 
         }
+
+
     }
-}
-</style>
+
+    .carousel_selector {
+        right:1rem;
+        top:45%;
+    }
+    .sel_1,
+    .sel_2,
+    .sel_3 {
+        width: 7px;
+        height: 30px;
+        border: 1px solid $dark-green;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .sel_2 {
+        background-color: $dark-green;
+    }
+
+}</style>
