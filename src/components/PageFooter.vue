@@ -1,6 +1,14 @@
 <script>
+import AboutList from './AboutList.vue'
+import ServicesList from './ServicesList.vue'
+import SupportList from './SupportList.vue'
 export default {
     name: 'PageFooter',
+    components: {
+      AboutList,
+      ServicesList,
+      SupportList
+    },
     data() {
       return {
          contacts: {
@@ -74,40 +82,19 @@ export default {
             <div class="col-3">
                <ul>
                   <li class="py-2">{{ aboutList.name }}</li>
-                  <li class="clear_text" v-for="item in aboutList.list">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                           d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                     </svg>
-                     {{ item }}
-                  </li>
+                  <AboutList v-for="item in aboutList.list" :list="item"/> 
                </ul>
             </div>
             <div class="col-3">
                <ul>
                   <li class="py-2">{{ servicesList.name }}</li>
-                  <li class="clear_text" v-for="item in servicesList.list">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                           d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                     </svg>
-                     {{ item }}
-                  </li>
+                  <ServicesList  v-for="item in servicesList.list" :list="item"/>
                </ul>
             </div>
             <div class="col-3">
                <ul>
                   <li class="py-2">{{ supportList.name }}</li>
-                  <li class="clear_text" v-for="item in supportList.list">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                           d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                     </svg>
-                     {{ item }}
-                  </li>
+                  <SupportList v-for="item in supportList.list" :list="item"/>
                </ul>
             </div>
          </div>
