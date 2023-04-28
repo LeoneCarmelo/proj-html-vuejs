@@ -84,7 +84,6 @@ export default {
                 <button id="touch" class="btn text-uppercase mx-2">get in touch</button>
                 <button id="more" class="btn text-uppercase mx-2">read more</button>
             </div>
-
         </div>
     </header>
 </template>
@@ -96,7 +95,6 @@ export default {
 header {
     background-color: $header;
     color: $clear-text;
-
     .container_info {
         width: 70%;
         margin: auto;
@@ -112,8 +110,6 @@ header {
         background-position: top -90px center, 100px -120px;
         background-size: 2700px, cover;
         flex-direction: column;
-
-
 
         h1 {
             font-size: 3.5rem;
@@ -144,7 +140,6 @@ header {
                 color: $light;
             }
         }
-
         .ready_team {
             width: 350px;
             align-self: center;
@@ -153,7 +148,6 @@ header {
             .team {
                 background-color: $light-green;
                 color: $dark-green;
-
             }
 
             #touch {
@@ -170,17 +164,14 @@ header {
                 background-color: $dark-green;
                 color:$light;
             }
-
-
         }
-
-
     }
 
     .carousel_selector {
         right:1rem;
         top:45%;
     }
+
     .sel_1,
     .sel_2,
     .sel_3 {
@@ -194,5 +185,4 @@ header {
     .sel_2 {
         background-color: $dark-green;
     }
-
 }</style>

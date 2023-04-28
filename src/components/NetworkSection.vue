@@ -38,7 +38,7 @@ export default {
                   </div>
                </div>
                <button class="btn text-uppercase mx-2 text-white bg_dg">get in touch</button>
-               <button class="btn text-uppercase mx-2 text-white">read more</button>
+               <button id="read" class="btn text-uppercase mx-2 text-white">read more</button>
             </div>
          </div>
          <div class="bullets_down d-flex">
@@ -115,5 +115,9 @@ export default {
       .left button:last-child {
          border: 1px solid $dark-green;
       }
+   }
+
+   #read:hover {
+      background-color: $dark-green;
    }
 </style>
