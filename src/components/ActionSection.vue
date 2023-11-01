@@ -10,7 +10,7 @@ export default {
          <div class="container">
             <div class="row">
                <!-- Form -->
-               <div class="col-8 pe-5">
+               <div class=" col-12 col-md-8 pe-5 order-2 order-md-1">
                   <h6 class="color_dg fw-bold text-uppercase mb-3">send a message</h6>
                   <h3 class="fw-bolder mb-5">Get in<span class="bg_lg color_dg rounded-2 ms-2 px-2">Touch</span></h3>
                   <p class="text_grey">We will respond to your message as soon as possible.</p>
@@ -48,7 +48,7 @@ export default {
                   </form>
                </div>
                <!-- Contacts -->
-               <div class="col-4">
+               <div class="col-12 col-md-4 order-1 order-md-2 mb-2">
                   <h5 class="fw-bold">Example Inc.</h5>
                   <p class="text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <p class="text_grey">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>

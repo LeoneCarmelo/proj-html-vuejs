@@ -15,11 +15,11 @@ export default {
          <div class="row text-center pt-5">
             <h6 class="text-uppercase color_dg fw-bold pt-5">we do more for everyone</h6>
             <h3 class="fw-bold my-3">Actions & <span class="bg_lg color_dg px-2 rounded-2">Projects</span></h3>
-            <ul class="d-flex justify-content-around text-uppercase w-75 mx-auto my-3">
-               <li class="mx-3 text_grey px-1" v-for="action in actions">{{ action }}</li>
+            <ul class="d-flex justify-content-around text-uppercase w-75 mx-auto my-3 flex-wrap">
+               <li class="mx-3 text_grey py-2" v-for="action in actions">{{ action }}</li>
             </ul>
          </div>
-         <div class="row row-cols-3 flex-wrap">
+         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 flex-wrap">
             <div class="col mb-4">
                <div class="card_action ca-1 rounded-2 p-2 text-center d-flex flex-column justify-content-end">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff"
@@ -145,10 +145,11 @@ export default {
       }
 
       .card_action {
-         width: 270px;
+         width: 100%;
          height: 270px;
          background-size: cover;
          position: relative;
+         margin: 0 auto;
 
          svg {
             position: absolute;
@@ -199,12 +200,15 @@ export default {
       }
 
       .card_action p {
-         display: none;
+         display:none;
+
       }
 
       .card_action:hover p,
       .card_action:hover svg {
          display: block;
+
       }
    }
-}</style>
+}
+</style>

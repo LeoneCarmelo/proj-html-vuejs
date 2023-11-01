@@ -2,7 +2,7 @@
 export default {
     name: 'AboutList',
     props: {
-        list: Object
+        list: String
     }
 }
 </script>

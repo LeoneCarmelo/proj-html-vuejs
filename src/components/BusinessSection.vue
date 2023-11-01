@@ -15,7 +15,7 @@ export default {
                   and a team of experienced and renowned professionals. These are some options that you can hire</p>
                <a class="text-uppercase bg_dg text-light text-center rounded-2 ms-5">see all</a>
             </div>
-            <div class="row row-cols-3 pt-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 pt-5">
                <div class="col mb-4">
                   <div class="card p-4 border-0">
                      <div class="cont_icon d-flex justify-content-between mb-2">

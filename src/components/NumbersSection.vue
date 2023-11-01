@@ -10,26 +10,26 @@ export default {
             <div class="container text-center">
                <h6 class="color_dg fw-bold text-uppercase mb-3">what we are doing</h6>
                <h3 class="fw-bolder text-white mb-5"><span class="darker_g rounded-2 px-2">Results</span> in Numbers</h3>
-               <div class="row row-cols-4">
-                  <div class="col">
+               <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                  <div class="col mb-2">
                      <div class="result d-flex flex-column">
                         <span class="fw-bold color_dg fs-3">128</span>
                         <span class="text-white fw-bold">Certifications</span>
                      </div>
                   </div>
-                  <div class="col">
+                  <div class="col mb-2">
                      <div class="result d-flex flex-column">
                         <span class="fw-bold color_dg fs-3">230</span>
                         <span class="text-white fw-bold">Employees</span>
                      </div>
                   </div>
-                  <div class="col">
+                  <div class="col mb-2">
                      <div class="result d-flex flex-column">
                         <span class="fw-bold color_dg fs-3">517</span>
                         <span class="text-white fw-bold">Customers</span>
                      </div>
                   </div>
-                  <div class="col">
+                  <div class="col mb-2">
                      <div class="result d-flex flex-column">
                         <span class="fw-bold color_dg fs-3">94</span>
                         <span class="text-white fw-bold">Countries Served</span>
@@ -38,23 +38,23 @@ export default {
                </div>
             </div>
          </div>
-         <div class="logos d-flex justify-content-center mx-auto py-5">
-            <div class="logo mx-4">
+         <div class="logos d-flex justify-content-center mx-auto py-5 flex-wrap">
+            <div class="logo m-3">
                <img src="/images/logo-4.svg" alt="" class="img-fluid">
             </div>
-            <div class="logo mx-4">
+            <div class="logo m-3">
                <img src="/images/logo-5.svg" alt="" class="img-fluid">
             </div>
-            <div class="logo mx-4">
+            <div class="logo m-3">
                <img src="/images/logo-1.svg" alt="" class="img-fluid">
             </div>
-            <div class="logo mx-4">
+            <div class="logo m-3">
                <img src="/images/logo-2.svg" alt="" class="img-fluid">
             </div>
-            <div class="logo mx-4">
+            <div class="logo m-3">
                <img src="/images/logo-3.svg" alt="" class="img-fluid">
             </div>
-            <div class="logo mx-4">
+            <div class="logo m-3">
                <img src="/images/logo-4.svg" alt="" class="img-fluid">
             </div>
          </div>

@@ -35,6 +35,14 @@ export default {
          copyright: 'Enjoy the low price. We are tracking any intention of privacy.',
          nexgen: `2020 NEXGEN is Proudly Powered by `
       }
+   },
+   methods:{
+      scrollToTop() {
+         window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+         })
+      }
    }
 }
 </script>
@@ -44,7 +52,7 @@ export default {
    <footer>
       <div class="container">
          <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-xl-3">
                <div class="logo">
                   <img :src="logo" alt="" class="img-fluid">
                </div>
@@ -83,19 +91,19 @@ export default {
                   <button class="btn text-uppercase mx-2 text-white my-4">get in touch</button>
                </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-xl-3">
                <ul>
                   <li class="py-2">{{ aboutList.name }}</li>
                   <AboutList v-for="item in aboutList.list" :list="item" />
                </ul>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-xl-3">
                <ul>
                   <li class="py-2">{{ servicesList.name }}</li>
                   <ServicesList v-for="item in servicesList.list" :list="item" />
                </ul>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-xl-3">
                <ul>
                   <li class="py-2">{{ supportList.name }}</li>
                   <SupportList v-for="item in supportList.list" :list="item" />
@@ -104,7 +112,7 @@ export default {
          </div>
       </div>
       <CopyRight :copyright="copyright" :nexgen="nexgen"/>
-      <div class="arrow">
+      <div class="arrow" @click="scrollToTop">
          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-circle"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
